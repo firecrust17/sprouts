@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { VisComponent } from '../vis/vis.component';
+
 
 @Component({
   selector: 'app-sprouts',
