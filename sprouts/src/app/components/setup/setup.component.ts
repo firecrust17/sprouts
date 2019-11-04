@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SetupComponent implements OnInit {
 
+	nodes = 2;
+	players = 2;
+
   constructor() { }
 
   ngOnInit() {

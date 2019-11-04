@@ -24,7 +24,8 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/vis-network/dist/vis-network.css"
+              "node_modules/vis-network/dist/vis-network.css",
+              "src/assets/css/toastr.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true

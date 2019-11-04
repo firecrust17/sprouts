@@ -1,1 +1,6 @@
 <div class="vis" id="mynetwork"></div>
+
+<div>
+	<span [ngClass]="player1? 'boldred': ''">Player 1's Turn</span>&nbsp;&nbsp;
+	<span [ngClass]="!player1? 'boldgreen': ''">Player 2's Turn</span>
+</div>

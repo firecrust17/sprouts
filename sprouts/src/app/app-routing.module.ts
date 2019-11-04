@@ -15,7 +15,7 @@ const routes: Routes = [
 		component:HomeComponent
 	},
 	{
-		path:'sprouts',
+		path:'sprouts/:nodes/:players',
 		component:SproutsComponent
 	},
 	{

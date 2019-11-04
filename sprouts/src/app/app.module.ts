@@ -8,6 +8,10 @@ import { SetupComponent } from './components/setup/setup.component';
 import { SproutsComponent } from './components/sprouts/sprouts.component';
 import { VisComponent } from './components/vis/vis.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +22,9 @@ import { VisComponent } from './components/vis/vis.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(),
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],

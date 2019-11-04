@@ -1,8 +1,8 @@
-<p>
-  setup works!
-</p>
-
-
-<button routerLink="/sprouts">
-	Plays
-</button>	
+<label>Nodes</label>
+<input type="number" min="2" max="10" [(ngModel)]="nodes" name="nodes">
+<!-- <label>Player</label>
+<input type="number" min="2" [(ngModel)]="players" name="players"> -->
+<br>
+<button routerLink="/sprouts/{{nodes}}/{{players}}">
+	Play
+</button>

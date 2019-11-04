@@ -2,3 +2,13 @@
 	border: solid 1px;
 	height: 100%;
 }
+
+.boldred {
+	font-weight: bold;
+	color: red;
+}
+
+.boldgreen {
+	font-weight: bold;
+	color: green;
+}
